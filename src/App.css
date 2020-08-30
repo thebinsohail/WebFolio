@@ -27,7 +27,7 @@
   font-size: 20px;
 }
 .navbar-nav .nav-link button:hover {
-  background:#5677d4;
+  background:#ff4f5a;
   color:white;
   transition:0.5s;
 }
@@ -41,9 +41,14 @@
   
 }
 .navbar-nav .nav-link { 
+  padding-bottom: 25%;
   font-size:20px;
   color: white;
 }
 
 
+}
+.main-nav-active button{
+  background:black;
+  
 }

@@ -1,0 +1,20 @@
+.about{
+   text-align: center;
+    padding-top:50px;
+    background:white;
+}
+.about > p,h5{
+    margin-top:20px;
+    text-align: center;
+    
+}
+#intro{
+    
+    margin-left:25px;
+}
+/* #aboutme:hover{
+    width:71%;
+    transition-property:all;
+    transition:1s linear;
+
+} */

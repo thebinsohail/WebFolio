@@ -1,9 +1,16 @@
 import React from 'react'
 import './css/shaper.css'
 import './css/home.css'
+import {Row,Col} from 'react-bootstrap';
+import {DiCode} from 'react-icons/di';
+
+
+let profession ="Developer | Software Engineer"
 
 function Home() {
     return (
+
+
     <div className="custom-shape-divider-top-1598650042 intro">
     
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -14,13 +21,22 @@ function Home() {
     
     
     </svg>
-    <h1 style={{textAlign: 'center',marginTop:'50px'}}>Hi, I'm Anas Bin Sohail</h1>
+  
+    <h1 id="greetings">Hi, I'm Anas Bin Sohail</h1>
+    
             <div className="center intro-img">
+
             <img className="img-fluid" src="./images/intro.jpg"/> 
+            <Row>
+                <Col lg={12}>
+                <h3 id="profession">{profession}</h3>
+                </Col>
+                
+                <DiCode size="2em" color='#ff4f5a' />
+                
+            </Row>
             </div>
-            {/* <div className="social-icons">
-        
-            </div> */}
+           
     </div>
     )
 }
