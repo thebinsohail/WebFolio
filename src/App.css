@@ -45,8 +45,17 @@
   font-size:20px;
   color: white;
 }
-
-
+#aboutme{
+  width:100%;
+}
+#greetings{
+  
+  margin-top:50px;
+  margin-bottom:50px;
+  color:black;
+  font-weight: 400;
+  font-size: 25px;
+}
 }
 .main-nav-active button{
   background:black;

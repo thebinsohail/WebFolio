@@ -1,4 +1,6 @@
-
+.intro{
+    text-align: center;
+}
 .intro-img{
     text-align: center;
 }
@@ -7,8 +9,30 @@
     color: black;
 }
 #greetings{
-    text-align: center;
+    margin-left: 150px;
     margin-top:50px;
+    margin-bottom:50px;
     color:black;
     font-weight: 400;
+}
+
+#cv-btn button{
+    padding:10px 25px 10px 25px;
+    font-weight:400;
+    background: transparent;
+    color: black;
+    text-align: center;
+}
+#cv-btn button:hover{
+    transition-delay:1s;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left:15px;
+    transition:1s;
+    color: white;
+    background:red;
+}
+.main-heading {
+    text-align: center;
 }
