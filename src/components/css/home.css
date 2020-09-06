@@ -9,12 +9,24 @@
     color: black;
 }
 #greetings{
-    margin-left: 150px;
+    margin-left: 50px;
     margin-top:50px;
     margin-bottom:50px;
     color:black;
     font-weight: 400;
+    font-size: 30px;
 }
+#name{
+    padding-top:0;
+    margin-left: 15px;
+    margin-top:20px;
+    margin-bottom:50px;
+    color:#ff4f5a ;
+    font-weight: 650;
+    font-size: 30px;
+}
+
+
 
 #cv-btn button{
     padding:10px 25px 10px 25px;

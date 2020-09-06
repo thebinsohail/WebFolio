@@ -54,8 +54,17 @@
   margin-bottom:50px;
   color:black;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 18px;
 }
+#name{
+  
+  margin-top:50px;
+  margin-bottom:50px;
+  color:black;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 }
 .main-nav-active button{
   background:black;

@@ -10,6 +10,7 @@ import { DiCode } from 'react-icons/di';
 let profession = "Developer | Software Engineer"
 
 function Home() {
+
     const TEXTS = [
         "Hello there!",
         "I'm Anas Bin Sohail",
@@ -17,15 +18,11 @@ function Home() {
 
     ];
     const [index, setIndex] = React.useState(0);
-    React.useEffect(() => {
-        const intervalId = setInterval(() =>
-           
-            
-            setIndex(index =>index+1),
-            4000, // every 4 seconds
+   
 
-        );
-    });
+
+
+
     const fade = useSpring(
         {
             from: { opacity: 0 },
@@ -59,10 +56,21 @@ function Home() {
            
                 <h1 id="greetings" ><TextTransition
                     text={TEXTS[index % TEXTS.length]}
-                    springConfig={presets.wobbly}
+                    springConfig={presets.gentle}
+                    delay={300}
                     
-                /></h1>
+                    inline
+                    
+                /> &#128075;</h1>
            
+           <h3 id="name" ><TextTransition
+                    text={TEXTS[index+1 % TEXTS.length]}
+                    springConfig={presets.wobbly}
+                    delay={3000}
+                    inline 
+                    
+                    
+                /> </h3>
 
             <div className="center intro-img" style={fade}>
 
