@@ -1,13 +1,40 @@
 .about{
+    margin-left: 20px;
    text-align: center;
     padding-top:50px;
     background:white;
 }
+#about{
+
+    font-weight: bold;
+}
+
+#about:hover{
+    font-weight: bolder;
+    color: black;
+    background: whitesmoke;
+    transition:1s
+}
+#education{
+    margin-right: 20px;
+    font-weight: bold;
+}
+#education:hover{
+    font-weight: bolder;
+    color: black;
+    background: whitesmoke;
+    transition:1s
+
+}
+
+
 .about > p,h5{
     margin-top:20px;
     text-align: center;
     
 }
+
+
 #intro{
     
     margin-left:25px;
@@ -20,4 +47,18 @@
 } */
 .intro-card-hover{
     background: orangered;
+}
+
+@media (max-width:768px){
+
+    #about{
+         margin-left: -20px;   
+        font-weight: bold;
+    }
+
+    #education{
+       
+        font-weight: bold;
+    }
+
 }

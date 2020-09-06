@@ -8,7 +8,7 @@ const info = {
     profession: ' Developer | Software Engineer',
     question: 'Who Am I?',
     personal: "My name is Anas Bin Sohail and I am a MERN STACK Developer",
-    intro: "educated and motivated software engineering student and a quick learner, quick to ramp up with any existing development platform, and perform design, coding, debugging, and testing application and system software. Excellent interpersonal as well as communication skills and enjoys a high-pressure team environment"
+    intro: "educated and a motivated software engineering student and a quick learner, quick to ramp up with any existing development platform, and perform design, coding, debugging, and testing application and system software. Excellent interpersonal as well as communication skills and enjoys a high-pressure team environment"
 }
 const education = {
     bachelors: 'Bachelor of Science in Software Engineering',
@@ -48,11 +48,11 @@ const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tensi
                     
                     />
 
-                    <Card className="intro-card" style={{ paddingTop: '50px', paddingBottom: '50px' }} >
+                    <Card className="intro-card" id="about" style={{ paddingTop: '50px', paddingBottom: '50px' }} >
                         <Card.Title><h4>About me</h4></Card.Title>
                         <p id="intro" style={{ fontWeight: '400', textAlign: 'center' }}>
 
-                            <Card.Text>{info.personal} an {info.intro}</Card.Text>
+                            <Card.Text>{info.personal} also an {info.intro}</Card.Text>
 
                         </p>
 
@@ -67,7 +67,7 @@ const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tensi
                    />
                     <Card.Title><h4>My Education</h4></Card.Title>
                     <Card style={{ marginTop: '50px', paddingTop: '50px', paddingBottom: '50px'}} 
-                  
+                  id='education'
                     >
 
 

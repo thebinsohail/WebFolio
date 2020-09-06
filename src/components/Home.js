@@ -65,7 +65,7 @@ function Home() {
            <h3 id="name" ><TextTransition
                     text={TEXTS[index+1 % TEXTS.length]}
                     springConfig={presets.wobbly}
-                    delay={3000}
+                    delay={1000}
                     inline 
                     
                     
