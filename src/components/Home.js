@@ -13,8 +13,7 @@ function Home() {
 
     const TEXTS = [
         "Hello there!",
-        "I'm Anas Bin Sohail",
-        "MERN Stack Developer"
+        "I'm Anas Bin Sohail"
 
     ];
     const [index, setIndex] = React.useState(0);
