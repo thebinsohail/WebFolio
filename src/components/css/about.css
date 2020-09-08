@@ -1,5 +1,6 @@
 .about{
-    margin-left: 20px;
+    
+    margin-left: 45px;
    text-align: center;
     padding-top:50px;
   
@@ -61,6 +62,22 @@
     #education{
        
         font-weight: bold;
+    }
+
+}
+@media (min-width:300px){
+
+    #about{
+         margin-left: -20px;   
+        font-weight: bold;
+    }
+
+    #education{
+        margin-left: -20px;  
+        font-weight: bold;
+    }
+    #edu-icon{
+        margin-left: -20px;  
     }
 
 }

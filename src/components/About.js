@@ -61,11 +61,11 @@ const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tensi
                 </Col>
 
                 <Col lg={6} sm={6} md={6}>
-                    <IoIosSchool size='8rem' color="orangered" style={{ marginTop: '50px' }} 
+                    <IoIosSchool id="edu-icon" size='6rem' color="orangered" style={{ marginTop: '50px' }} 
                      
                    
                    />
-                    <Card.Title><h4>My Education</h4></Card.Title>
+                    <Card.Title><h4 id="my-education">My Education</h4></Card.Title>
                     <Card style={{ marginTop: '50px', paddingTop: '50px', paddingBottom: '50px'}} 
                   id='education'
                     >

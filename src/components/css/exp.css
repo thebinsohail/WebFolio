@@ -1,7 +1,4 @@
-#card1{
-  
-    
-}
+
 #card1:hover{
 background:whitesmoke;
 }
@@ -19,37 +16,57 @@ background:whitesmoke;
     
 }
 #card1{
-    margin-left: 80px;
+    margin-left: 150px;
 }
 #card2{
  
-    margin-left: 80px;
+    margin-left: 150px;
 }
 #card3{
  
-    margin-left: 80px;
+    margin-left: 150px;
 }    
 
 #card4{
-    margin-left: 80px;
+    margin-left: 150px;
     
 }
 
 @media (max-width:768px){
     #card1{
-        margin-left: 20px;
+        margin-left: 50px;
     }
     #card2{
      
-        margin-left: 20px;
+        margin-left: 50px;
     }
     #card3{
      
-        margin-left: 20px;
+        margin-left: 50px;
     }    
     
     #card4{
-        margin-left: 20px;
+        margin-left: 50px;
+        
+    }
+        
+}
+
+@media (max-width:300px){
+    #card1{
+        margin-left: 0px;
+    }
+    #card2{
+     
+        margin-left: 0px;
+    }
+    #card3{
+     
+        margin-left: 0px;
+    }    
+    
+    #card4{
+        margin-left: 0px;
         
     }
         

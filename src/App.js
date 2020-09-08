@@ -14,7 +14,7 @@ function App() {
 
     <div className="App">      
       <Navigation/>
-      < ScrollUpButton style={{backgroundColor: 'whitesmoke'}} ToggledStyle={{right: 30}} />
+      < ScrollUpButton id="scroll-btn" style={{backgroundColor: 'white'}} ToggledStyle={{right: 30}} />
        <Home />
       <About/>
       <Skills/>
