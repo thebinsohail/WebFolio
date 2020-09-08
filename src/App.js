@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
 import Navigation from './components/Navigation'
 import Home from './components/Home'
 import About from './components/About'
@@ -11,15 +12,15 @@ function App() {
   return (
 
 
-    <div className="App">
-
+    <div className="App">      
       <Navigation/>
-      
+      < ScrollUpButton style={{backgroundColor: 'whitesmoke'}} ToggledStyle={{right: 30}} />
        <Home />
       <About/>
       <Skills/>
       <Experience/>
       <Contact/>      
+      
     </div>
   );
 }

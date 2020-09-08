@@ -2,29 +2,31 @@
     margin-left: 20px;
    text-align: center;
     padding-top:50px;
-    background:white;
+  
 }
 #about{
-
+    color: black;
+    background: whitesmoke;
     font-weight: bold;
 }
 
 #about:hover{
     font-weight: bolder;
-    color: black;
-    background: whitesmoke;
-    transition:1s
+    color: white;
+    background:#c73039;
+    transition:0.5s ;
 }
 #education{
+    color: black;
+     background: whitesmoke;
     margin-right: 20px;
     font-weight: bold;
 }
 #education:hover{
     font-weight: bolder;
-    color: black;
-    background: whitesmoke;
-    transition:1s
-
+    color: white;
+    transition:0.5s ;
+    background:#c73039;
 }
 
 

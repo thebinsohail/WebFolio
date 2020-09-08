@@ -7,7 +7,7 @@ import { AiTwotoneCloud } from 'react-icons/ai';
 const info = {
     profession: ' Developer | Software Engineer',
     question: 'Who Am I?',
-    personal: "My name is Anas Bin Sohail and I am a MERN STACK Developer",
+    personal: "My name is Anas Bin Sohail and I am a Full Stack (MERN) developer",
     intro: "educated and a motivated software engineering student and a quick learner, quick to ramp up with any existing development platform, and perform design, coding, debugging, and testing application and system software. Excellent interpersonal as well as communication skills and enjoys a high-pressure team environment"
 }
 const education = {
