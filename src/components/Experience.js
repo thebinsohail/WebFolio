@@ -1,12 +1,17 @@
 import React from 'react'
-import { Card, Icon } from 'semantic-ui-react'
+import { Card, Icon ,Divider } from 'semantic-ui-react'
 import { Row, Col } from 'react-bootstrap'
-import './css/exp.css'
+import './css/experience.css'
 const Experience = () => (
 
     <div>
-        <h1 style={{ textAlign: 'center',marginTop: '50px'}}>Experience</h1>
+        
+        <div className="container"><Divider/><h1 style={{fontSize:'30px',marginTop: '100px',textAlign: 'center', marginTop: '100px',fontWeight: 'lighter'}}>My Experience</h1></div>
+        
+       
+        <div className="container-fluid text-center">
         <Row>
+            
         <Col lg={6} sm={6}>
                 <Card id="card4" style={{ marginTop: '50px'}}
                     image='./images/afiniti.png'
@@ -16,7 +21,7 @@ const Experience = () => (
 
                 />
             </Col>
-         
+            
 
             <Col lg={6} sm={6}>
                 <Card id="card3" style={{ marginTop: '50px'}}
@@ -51,9 +56,10 @@ const Experience = () => (
 
            
 
-          
+           
 
         </Row>
+        </div>
     </div>
 
 );

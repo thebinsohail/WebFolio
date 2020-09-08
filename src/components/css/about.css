@@ -1,6 +1,6 @@
 .about{
     
-    margin-left: 45px;
+    margin-left: 20px;
    text-align: center;
     padding-top:50px;
   
@@ -36,7 +36,11 @@
     text-align: center;
     
 }
-
+#my-education{
+    font-size:18px;
+    text-align: center;
+    margin-left:8px;
+}
 
 #intro{
     
@@ -65,7 +69,7 @@
     }
 
 }
-@media (min-width:300px){
+/* @media (min-width:300px){
 
     #about{
          margin-left: -20px;   
@@ -80,4 +84,4 @@
         margin-left: -20px;  
     }
 
-}
+} */

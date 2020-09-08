@@ -14,12 +14,12 @@ function App() {
 
     <div className="App">      
       <Navigation/>
-      < ScrollUpButton id="scroll-btn" style={{backgroundColor: 'white'}} ToggledStyle={{right: 30}} />
+      < ScrollUpButton id="scroll-btn" style={{backgroundColor: 'transparent'}} ToggledStyle={{right: 30}} />
        <Home />
       <About/>
       <Skills/>
       <Experience/>
-      <Contact/>      
+      {/* <Contact/>       */}
       
     </div>
   );

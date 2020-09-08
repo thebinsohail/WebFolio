@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/about.css'
+import {Divider} from 'semantic-ui-react'
 import { useSpring, animated, useState } from 'react-spring'
 import { Row, Col, Card } from 'react-bootstrap';
 import { IoIosSchool } from 'react-icons/io';
@@ -28,6 +29,7 @@ const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tensi
 
     return (
         <div className="about" style={{ background: 'transparent' }}>
+            <div className="container"><Divider/><h1 style={{fontSize:'30px',marginTop: '100px',fontWeight:'lighter'}}>Personal Information</h1></div>
 
             <Row>
 
