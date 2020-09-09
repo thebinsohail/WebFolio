@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/about.css'
-import {Divider} from 'semantic-ui-react'
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
+import { Divider } from 'semantic-ui-react'
 import { useSpring, animated, useState } from 'react-spring'
 import { Row, Col, Card } from 'react-bootstrap';
 import { IoIosSchool } from 'react-icons/io';
@@ -23,33 +24,29 @@ const education = {
 
 
 function About() {
-const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
-const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
-const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
+    const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
+    const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
+    const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
 
     return (
         <div className="about" style={{ background: 'transparent' }}>
-            <div className="container"><Divider/><h1 style={{fontSize:'30px',marginTop: '100px',fontWeight:'lighter'}}>Personal Information</h1></div>
-
+            <AnimatedOnScroll animationIn="bounceIn">
+                <div className="container"><Divider /><h1 style={{ fontSize: '30px', marginTop: '100px', fontWeight: 'lighter' }}>Personal Information</h1></div>
+            </AnimatedOnScroll>
             <Row>
 
 
-
-                <Col lg={12}>
-
-                    {/* <h2>{info.question}</h2> */}
-                </Col>
-
                 <Col sm={6} lg={6}>
+                    <AnimatedOnScroll animationIn="bounceIn">
+                        <animated.img src="images/about.jpg" width="70%" id="aboutme"
+                            onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                            onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                            style={{ transform: props.xys.interpolate(trans), marginTop: '30px' }}
 
-                    <animated.img src="images/about.jpg" width="70%" id="aboutme"
-                     onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
-                     onMouseLeave={() => set({ xys: [0, 0, 1] })}
-                     style={{ transform: props.xys.interpolate(trans),marginTop:'30px'}}
 
-                    
-                    />
-
+                        />
+                    </AnimatedOnScroll>
+                    <AnimatedOnScroll animationIn="fadeIn">
                     <Card className="intro-card" id="about" style={{ paddingTop: '50px', paddingBottom: '50px' }} >
                         <Card.Title><h4>About me</h4></Card.Title>
                         <p id="intro" style={{ fontWeight: '400', textAlign: 'center' }}>
@@ -60,16 +57,20 @@ const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tensi
 
 
                     </Card>
+                    </AnimatedOnScroll>
                 </Col>
 
                 <Col lg={6} sm={6} md={6}>
-                    <IoIosSchool id="edu-icon" size='6rem' color="orangered" style={{ marginTop: '50px' }} 
-                     
-                   
-                   />
+                    <AnimatedOnScroll animationIn="bounceIn">
+                        <IoIosSchool id="edu-icon" size='6rem' color="orangered" style={{ marginTop: '50px' }}
+
+
+                        />
+                    </AnimatedOnScroll>
+                    <AnimatedOnScroll animationIn="fadeIn">
                     <Card.Title><h4 id="my-education">My Education</h4></Card.Title>
-                    <Card style={{ marginTop: '50px', paddingTop: '50px', paddingBottom: '50px'}} 
-                  id='education'
+                    <Card style={{ marginTop: '50px', paddingTop: '50px', paddingBottom: '50px' }}
+                        id='education'
                     >
 
 
@@ -89,6 +90,7 @@ const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tensi
                             </Card.Text>
                         </Col>
                     </Card>
+                    </AnimatedOnScroll>
                 </Col>
 
             </Row>
