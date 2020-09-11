@@ -38,10 +38,10 @@ function About() {
 
                 <Col sm={6} lg={6}>
                     <AnimatedOnScroll animationIn="bounceIn">
-                        <animated.img src="images/about.jpg" width="70%" id="aboutme"
+                        <animated.img src="images/anasbinsohail.jpg" width="30%" id="aboutme"
                             onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
                             onMouseLeave={() => set({ xys: [0, 0, 1] })}
-                            style={{ transform: props.xys.interpolate(trans), marginTop: '30px' }}
+                            style={{ transform: props.xys.interpolate(trans), marginTop: '30px' ,marginBottom:'20px',borderRadius:'300px',border:'3px solid red'}}
 
 
                         />
