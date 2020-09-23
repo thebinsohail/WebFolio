@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/myfolio/static/css/main.8b1e67c0.chunk.css",
+    "main.js": "/myfolio/static/js/main.37d4cc35.chunk.js",
+    "main.js.map": "/myfolio/static/js/main.37d4cc35.chunk.js.map",
+    "runtime-main.js": "/myfolio/static/js/runtime-main.ff42ef0b.js",
+    "runtime-main.js.map": "/myfolio/static/js/runtime-main.ff42ef0b.js.map",
+    "static/css/2.b1a4c485.chunk.css": "/myfolio/static/css/2.b1a4c485.chunk.css",
+    "static/js/2.a956a03d.chunk.js": "/myfolio/static/js/2.a956a03d.chunk.js",
+    "static/js/2.a956a03d.chunk.js.map": "/myfolio/static/js/2.a956a03d.chunk.js.map",
+    "index.html": "/myfolio/index.html",
+    "precache-manifest.d000a7f5635d948e6acad397371f9c59.js": "/myfolio/precache-manifest.d000a7f5635d948e6acad397371f9c59.js",
+    "service-worker.js": "/myfolio/service-worker.js",
+    "static/css/2.b1a4c485.chunk.css.map": "/myfolio/static/css/2.b1a4c485.chunk.css.map",
+    "static/css/main.8b1e67c0.chunk.css.map": "/myfolio/static/css/main.8b1e67c0.chunk.css.map",
+    "static/js/2.a956a03d.chunk.js.LICENSE.txt": "/myfolio/static/js/2.a956a03d.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/myfolio/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff42ef0b.js",
+    "static/css/2.b1a4c485.chunk.css",
+    "static/js/2.a956a03d.chunk.js",
+    "static/css/main.8b1e67c0.chunk.css",
+    "static/js/main.37d4cc35.chunk.js"
+  ]
+}
