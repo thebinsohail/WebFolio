@@ -1,3 +1,2 @@
-
-Home and About Section updated
+Modern WebFolio for developers community
 
