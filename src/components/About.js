@@ -6,6 +6,7 @@ import { useSpring, animated, useState } from 'react-spring'
 import { Row, Col, Card } from 'react-bootstrap';
 import { IoIosSchool } from 'react-icons/io';
 import { AiTwotoneCloud } from 'react-icons/ai';
+
 const info = {
     profession: ' Developer | Software Engineer',
     question: 'Who Am I?',
@@ -41,11 +42,12 @@ function About() {
                         <animated.img src="images/anasbinsohail.jpg" width="30%" id="aboutme"
                             onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
                             onMouseLeave={() => set({ xys: [0, 0, 1] })}
-                            style={{ transform: props.xys.interpolate(trans), marginTop: '30px' ,marginBottom:'20px',borderRadius:'300px',border:'3px solid red'}}
+                            style={{ transform: props.xys.interpolate(trans), marginTop: '30px' ,marginBottom:'20px',borderRadius:'300px',border:'3px solid #0e1f47'}}
 
 
                         />
                     </AnimatedOnScroll>
+                   
                     <AnimatedOnScroll animationIn="fadeIn">
                     <Card className="intro-card" id="about" style={{ paddingTop: '50px', paddingBottom: '50px' }} >
                         <Card.Title><h4>About me</h4></Card.Title>
@@ -62,7 +64,7 @@ function About() {
 
                 <Col lg={6} sm={6} md={6}>
                     <AnimatedOnScroll animationIn="bounceIn">
-                        <IoIosSchool id="edu-icon" size='6rem' color="orangered" style={{ marginTop: '50px' }}
+                        <IoIosSchool id="edu-icon" size='6rem' color="red" style={{ marginTop: '50px' }}
 
 
                         />
@@ -94,7 +96,7 @@ function About() {
                 </Col>
 
             </Row>
-
+            <div id="skills"></div>
         </div>
     )
 }

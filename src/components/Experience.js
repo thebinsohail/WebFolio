@@ -13,7 +13,8 @@ const Experience = () => (
         <Row>
             
         <Col lg={6} sm={6}>
-                <Card id="card4" style={{ marginTop: '50px'}}
+                <Card id="card4" style={{ marginTop: '50px',
+                boxShadow:'1px 1px 1px  gray'}}
                     image='./images/afiniti.png'
                     header='SQA Intern '
 
@@ -24,7 +25,7 @@ const Experience = () => (
             
 
             <Col lg={6} sm={6}>
-                <Card id="card3" style={{ marginTop: '50px'}}
+                <Card id="card3" style={{ marginTop: '50px', boxShadow:'1px 1px 1px  gray'}}
                     image='./images/ieeex.png'
                     header='Brand Ambassador IEEEXTREME Programming Competition 2020'
                      
@@ -33,7 +34,7 @@ const Experience = () => (
                 />
             </Col>
             <Col lg={6} sm={6}>
-                <Card id="card1" style={{ marginTop: '50px'}}
+                <Card id="card1" style={{ marginTop: '50px', boxShadow:'1px 1px 1px  gray'}}
                     image='./images/sac.png' 
                     header='Technical Chapter/vTools Coordinator '
 
@@ -43,7 +44,7 @@ const Experience = () => (
             </Col>
 
             <Col lg={6}>
-                <Card id="card2" style={{ marginTop: '50px'}}
+                <Card id="card2" style={{ marginTop: '50px', boxShadow:'1px 1px 1px  gray'}}
                     image='./images/sac.png'
                     header='vTools Coordinator 2019 '
 

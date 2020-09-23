@@ -1,11 +1,12 @@
 .about{
-    
+    background-color: whitesmoke;
     margin-left: 20px;
    text-align: center;
     padding-top:50px;
   
 }
 #about{
+    box-shadow: 1px 1px 1px black;
     color: black;
     background: white;
     font-weight: bold;
@@ -14,10 +15,11 @@
 #about:hover{
     font-weight: bolder;
     color: white;
-    background:#c73039;
+    background:#0e1f47;
     transition:0.5s ;
 }
 #education{
+    box-shadow: 1px 1px 1px 1px black;
     color: black;
      background: white;
     margin-right: 20px;
@@ -27,7 +29,7 @@
     font-weight: bolder;
     color: white;
     transition:0.5s ;
-    background:#c73039;
+    background:#0e1f47;
 }
 
 
@@ -53,7 +55,7 @@
 
 } */
 .intro-card-hover{
-    background: orangered;
+    background: #0e1f47;
 }
 
 @media (max-width:768px){

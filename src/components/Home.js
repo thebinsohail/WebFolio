@@ -5,7 +5,7 @@ import './css/shaper.css'
 import './css/home.css'
 import { Row, Col } from 'react-bootstrap';
 import { DiCode } from 'react-icons/di';
-
+import {Icon,Popup} from 'semantic-ui-react';
 
 let profession = "Developer | Software Engineer"
 
@@ -41,7 +41,7 @@ function Home() {
     return (
 
 
-        <div className="custom-shape-divider-top-1598650042 intro">
+        <div className="custom-shape-divider-top-1598650042 intro" id="homepage">
 
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
@@ -71,7 +71,7 @@ function Home() {
                     
                 /> </h3>
 
-            <div className="center intro-img" style={fade}>
+            <div className="container intro-img" style={fade}>
 
                 <animated.img
                     onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
@@ -80,14 +80,30 @@ function Home() {
 
 
                     className="img-fluid" src="./images/intro.jpg" />
+                
                 <Row>
+            <div className="container">
+                <h3 style={{textAlign: "center"}} id="connect">Connect With me Now ! </h3>
+                <ul id='social-icons'>
+                <li><a href="https://github.com/thebinsohail" target="_blank" ><Icon name='github' color='black' size='huge' /></a></li>
+                <li><a href="https://www.facebook.com/anasbinsohail/" target="_blank" ><Icon name='facebook' color='blue' size='huge' /></a></li>
+                <li><a href="https://www.instagram.com/thebinsohail" target="_blank"><Icon name='instagram' color='red' size='huge' /></a></li>
+                <li><a href="anassohail.as@gmail.com"><Icon name='mail' color='orange' size='huge' /></a></li>
+                <li><a href="https://twitter.com/thebinsohail" target="_blank"><Icon name='twitter' color='blue' size='huge' /></a></li>
+                <li><a href="https://www.linkedin.com/in/anasbinsohail/" target="_blank"><Icon name='linkedin' color='blue' size='huge' /></a></li>
+                </ul>
+                </div>
                     <Col lg={12}>
+                        
                         <h3 id="profession">{profession}</h3>
                     </Col>
 
-                    <DiCode size="2em" color='#ff4f5a' />
+                    <DiCode size="2em" color='black' />
 
                 </Row>
+                <div id="aboutme">
+
+                </div>
                 <div id="cv-btn">
                     <a href="./CV/mycv.pdf" download="CV"><button className="btn btn-danger">Download CV</button></a>
                 </div>

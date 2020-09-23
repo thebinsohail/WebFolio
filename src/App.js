@@ -10,6 +10,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Experience from './components/Experience'
+import More from './components/More'
 function App() {
   return (
 
@@ -30,6 +31,7 @@ function App() {
       <About/>
       <Skills/>
       <Experience/>
+      <More/>
       {/* <Contact/>       */}
       
     </div>

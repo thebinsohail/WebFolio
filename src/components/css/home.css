@@ -1,10 +1,15 @@
+
 .intro{
+    
     text-align: center;
 }
 .intro-img{
+   
     text-align: center;
 }
 #profession{
+
+    padding-top: 70px;
     font-weight: 600;
     color: black;
 }
@@ -21,7 +26,7 @@
     margin-left: 15px;
     margin-top:20px;
     margin-bottom:50px;
-    color:#ff4f5a ;
+    color:red ;
     font-weight: 650;
     font-size: 35px;
 }
@@ -29,27 +34,39 @@
 
 
 #cv-btn button{
+
+    border: 1px solid #0e1f47;
+    background:#0e1f47;
     padding:10px 25px 10px 25px;
     font-weight:400;
-    background: transparent;
-    color: black;
+    color: #fff;
     text-align: center;
 }
 #cv-btn button:hover{
+    background:transparent;
     transition-delay:1s;
     text-align: center;
     padding-right: 25px;
     padding-left: 25px;
     margin-left:15px;
     transition:1s;
-    color: white;
-    background:red;
+    color: black;
+    
 }
 .main-heading {
     text-align: center;
 }
 
 @media (max-width:768px){
+
+    #connect{
+        font-size:25px;
+    }
+
+
+#aboutme{
+    width:50%;
+}
 
  #name{
      margin-left: 30px;
@@ -61,4 +78,17 @@
      margin-left: -20px;
      text-align: center;
  }
+}
+
+#social-icons li{
+    padding-right: 20px;
+    padding:20px 0 20px 0;
+    list-style-type: none;
+    display: inline-block;
+    
+}
+#social-icons li:hover{
+  background:#e3e7fc;
+  padding:20px 0 20px 0;
+  transition: all 0.3s ease-in;
 }

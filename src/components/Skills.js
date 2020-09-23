@@ -12,7 +12,7 @@ function Skills() {
         C: "C"
     }
     return (
-        <div className="container skills">
+        <div className="container skills" >
             <AnimatedOnScroll animationIn="slideInLeft">
                 <h1 id="languages" style={{ textAlign: 'center', marginTop: '100px' }}>Programming Languages that I know</h1>
 
@@ -42,6 +42,7 @@ function Skills() {
 
                 />} />
             </AnimatedOnScroll>
+            <div id="experience"></div>
         </div>
     )
 }

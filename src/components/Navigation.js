@@ -14,6 +14,7 @@ import {
     NavbarText
 } from 'reactstrap';
 import { DiCode } from "react-icons/di";
+import {Link} from 'react-scroll'
 const Navigation = (props) => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -27,16 +28,49 @@ const Navigation = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-            <NavLink href="/"><button className="btn btn-primary home" >Home</button></NavLink>
+            <Link to="homepage" 
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={50}
+            duration={500}
+            
+            activeClass="active"><button className="btn" id="home-btn" >Home</button></Link>
                         </NavItem>
                         <NavItem>
-                <NavLink href="/about"><button className="btn btn-primary">About</button></NavLink>
+                <Link to="aboutme"
+                
+                spy={true}
+                    smooth={true}
+                    hashSpy={true}
+                    offset={50}
+                    duration={500}
+                
+                ><button className="btn" id="about-btn">About</button></Link>
                         </NavItem>
                         <NavItem>
-                <NavLink href="/services"><button className="btn btn-primary">Skills</button></NavLink>
+                <Link to='skills'
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={50}
+                duration={500}
+                
+                
+                ><button className="btn " id="skills-btn">Skills</button></Link>
                         </NavItem>
                         <NavItem>
-                  <NavLink href="/contact"><button className="btn btn-primary">Contact</button></NavLink>
+                  <Link to="experience"
+                    spy={true}
+                    smooth={true}
+                    hashSpy={true}
+                    offset={50}
+                    duration={500}
+                      
+                  
+                  
+                  
+                  ><button className="btn " id="exp-btn">Experience</button></Link>
                         </NavItem>
                   
                   

@@ -1,3 +1,4 @@
+
 .navbar{
   background:#fff;
 }
@@ -27,10 +28,38 @@
   font-size: 20px;
 }
 .navbar-nav .nav-link button:hover {
-  background:#ff4f5a;
+  background:hsl(249, 100%, 83%);
   color:white;
   transition:0.5s;
 }
+
+#home-btn{
+ font-size: 20px;
+  color: black;
+  background:white;
+}
+#about-btn{
+  font-size: 20px;
+  color: black;
+  background:white;
+}
+
+#skills-btn{
+  font-size: 20px;
+  color: black;
+  background:white;
+}
+
+#exp-btn{
+  font-size: 20px;
+  color: black;
+  background:white;
+}
+
+
+
+
+
 @media (max-width:768px){
 .navbar-collapse{
   text-align: center;
