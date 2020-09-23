@@ -1,3 +1,4 @@
+
 .navbar{
   background:#fff;
 }
@@ -27,10 +28,36 @@
   font-size: 20px;
 }
 .navbar-nav .nav-link button:hover {
-  background:#ff4f5a;
+  background:hsl(249, 100%, 83%);
   color:white;
   transition:0.5s;
 }
+
+#home-btn{
+ font-size: 20px;
+  color: black;
+  background:white;
+}
+#about-btn{
+  font-size: 20px;
+  color: black;
+  background:white;
+}
+
+#skills-btn{
+  font-size: 20px;
+  color: black;
+  background:white;
+}
+
+#exp-btn{
+  font-size: 20px;
+  color: black;
+  background:white;
+}
+
+
+
 
 
 @media (max-width:768px){
@@ -45,7 +72,25 @@
   font-size:20px;
   color: white;
 }
-
+#aboutme{
+  width:100%;
+}
+#greetings{
+  
+  margin-top:50px;
+  margin-bottom:50px;
+  color:black;
+  font-weight: 400;
+  font-size: 18px;
+}
+#name{
+  
+  margin-top:50px;
+  margin-bottom:50px;
+  color:black;
+  font-weight: 400;
+  font-size: 18px;
+}
 
 }
 .main-nav-active button{

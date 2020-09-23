@@ -1,13 +1,49 @@
 .about{
+    background-color: whitesmoke;
+    margin-left: 20px;
    text-align: center;
     padding-top:50px;
-    background:white;
+  
 }
+#about{
+    box-shadow: 1px 1px 1px black;
+    color: black;
+    background: white;
+    font-weight: bold;
+}
+
+#about:hover{
+    font-weight: bolder;
+    color: white;
+    background:#0e1f47;
+    transition:0.5s ;
+}
+#education{
+    box-shadow: 1px 1px 1px 1px black;
+    color: black;
+     background: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+#education:hover{
+    font-weight: bolder;
+    color: white;
+    transition:0.5s ;
+    background:#0e1f47;
+}
+
+
 .about > p,h5{
     margin-top:20px;
     text-align: center;
     
 }
+#my-education{
+    font-size:18px;
+    text-align: center;
+    margin-left:8px;
+}
+
 #intro{
     
     margin-left:25px;
@@ -16,5 +52,38 @@
     width:71%;
     transition-property:all;
     transition:1s linear;
+
+} */
+.intro-card-hover{
+    background: #0e1f47;
+}
+
+@media (max-width:768px){
+
+    #about{
+         margin-left: -20px;   
+        font-weight: bold;
+    }
+
+    #education{
+       
+        font-weight: bold;
+    }
+
+}
+/* @media (min-width:300px){
+
+    #about{
+         margin-left: -20px;   
+        font-weight: bold;
+    }
+
+    #education{
+        margin-left: -20px;  
+        font-weight: bold;
+    }
+    #edu-icon{
+        margin-left: -20px;  
+    }
 
 } */
