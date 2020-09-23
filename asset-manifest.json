@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Webfolio/static/css/main.8b1e67c0.chunk.css",
-    "main.js": "/Webfolio/static/js/main.dcfe3fcf.chunk.js",
-    "main.js.map": "/Webfolio/static/js/main.dcfe3fcf.chunk.js.map",
-    "runtime-main.js": "/Webfolio/static/js/runtime-main.e0426bf2.js",
-    "runtime-main.js.map": "/Webfolio/static/js/runtime-main.e0426bf2.js.map",
-    "static/css/2.793f7887.chunk.css": "/Webfolio/static/css/2.793f7887.chunk.css",
-    "static/js/2.a956a03d.chunk.js": "/Webfolio/static/js/2.a956a03d.chunk.js",
-    "static/js/2.a956a03d.chunk.js.map": "/Webfolio/static/js/2.a956a03d.chunk.js.map",
-    "index.html": "/Webfolio/index.html",
-    "precache-manifest.7688a4697499af83a634c9a9e8e2405e.js": "/Webfolio/precache-manifest.7688a4697499af83a634c9a9e8e2405e.js",
-    "service-worker.js": "/Webfolio/service-worker.js",
-    "static/css/2.793f7887.chunk.css.map": "/Webfolio/static/css/2.793f7887.chunk.css.map",
-    "static/css/main.8b1e67c0.chunk.css.map": "/Webfolio/static/css/main.8b1e67c0.chunk.css.map",
-    "static/js/2.a956a03d.chunk.js.LICENSE.txt": "/Webfolio/static/js/2.a956a03d.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/Webfolio/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/WebFolio/static/css/main.8b1e67c0.chunk.css",
+    "main.js": "/WebFolio/static/js/main.50c07b53.chunk.js",
+    "main.js.map": "/WebFolio/static/js/main.50c07b53.chunk.js.map",
+    "runtime-main.js": "/WebFolio/static/js/runtime-main.e98b7434.js",
+    "runtime-main.js.map": "/WebFolio/static/js/runtime-main.e98b7434.js.map",
+    "static/css/2.6d8c91ab.chunk.css": "/WebFolio/static/css/2.6d8c91ab.chunk.css",
+    "static/js/2.a956a03d.chunk.js": "/WebFolio/static/js/2.a956a03d.chunk.js",
+    "static/js/2.a956a03d.chunk.js.map": "/WebFolio/static/js/2.a956a03d.chunk.js.map",
+    "index.html": "/WebFolio/index.html",
+    "precache-manifest.927d06010b425becd9b63d000dabb1f4.js": "/WebFolio/precache-manifest.927d06010b425becd9b63d000dabb1f4.js",
+    "service-worker.js": "/WebFolio/service-worker.js",
+    "static/css/2.6d8c91ab.chunk.css.map": "/WebFolio/static/css/2.6d8c91ab.chunk.css.map",
+    "static/css/main.8b1e67c0.chunk.css.map": "/WebFolio/static/css/main.8b1e67c0.chunk.css.map",
+    "static/js/2.a956a03d.chunk.js.LICENSE.txt": "/WebFolio/static/js/2.a956a03d.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/WebFolio/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0426bf2.js",
-    "static/css/2.793f7887.chunk.css",
+    "static/js/runtime-main.e98b7434.js",
+    "static/css/2.6d8c91ab.chunk.css",
     "static/js/2.a956a03d.chunk.js",
     "static/css/main.8b1e67c0.chunk.css",
-    "static/js/main.dcfe3fcf.chunk.js"
+    "static/js/main.50c07b53.chunk.js"
   ]
 }
