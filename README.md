@@ -1,4 +1,4 @@
-Modern WebFolio for developers/anyone
+Modern WebFolio for Everyone
 
 I'll be glad and thankful to you if you contribute to this repository.
 
