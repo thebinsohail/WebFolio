@@ -23,7 +23,7 @@ const Navigation = (props) => {
     return (
         <div>
             <Navbar light expand="md">
-            <NavbarBrand href="/" ><DiCode size="3em" color="black"/>Anas Bin Sohail</NavbarBrand>
+            <NavbarBrand href="https://thebinsohail.github.io/WebFolio/" ><DiCode size="3em" color="black"/>Anas Bin Sohail</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
