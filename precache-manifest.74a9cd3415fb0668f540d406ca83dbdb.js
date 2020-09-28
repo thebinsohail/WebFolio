@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0db7fbfb1df5a7f3d1f9ff20baecedab",
+    "revision": "b62df851fa1696fb4e8fc971a0fb52d6",
     "url": "/WebFolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WebFolio/static/css/2.6d8c91ab.chunk.css"
   },
   {
-    "revision": "ddb1f67553d54f91646f",
-    "url": "/WebFolio/static/css/main.d1a6334a.chunk.css"
+    "revision": "4addbf60c2fd603ac9b8",
+    "url": "/WebFolio/static/css/main.08339598.chunk.css"
   },
   {
     "revision": "09dcf51bf1949065f534",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WebFolio/static/js/2.a956a03d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ddb1f67553d54f91646f",
-    "url": "/WebFolio/static/js/main.50c07b53.chunk.js"
+    "revision": "4addbf60c2fd603ac9b8",
+    "url": "/WebFolio/static/js/main.bd17e2f5.chunk.js"
   },
   {
     "revision": "c21b61f69cff28c63aa0",
