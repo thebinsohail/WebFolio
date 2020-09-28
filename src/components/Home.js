@@ -105,7 +105,7 @@ function Home() {
 
                 </div>
                 <div id="cv-btn">
-                    <a href="./CV/mycv.pdf" download="CV"><button className="btn btn-danger">Download CV</button></a>
+                    <a href="./CV/cv.pdf" download="CV"><button className="btn btn-danger">Download CV</button></a>
                 </div>
             </div>
 
