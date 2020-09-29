@@ -2,10 +2,11 @@ body {
   margin: 0;
   
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 450;
+  font-weight: 500;
 }
 
 code {
+  font-weight: 500;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
