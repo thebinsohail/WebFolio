@@ -7,29 +7,29 @@
 }
 #about{
     box-shadow: 1px 1px 1px black;
-    color: black;
-    background: white;
+    color: white;
+    background: #0e1f47;
     font-weight: bold;
 }
 
 #about:hover{
     font-weight: bolder;
-    color: white;
-    background:#0e1f47;
+    color: black;
+    background:white;
     transition:0.5s ;
 }
 #education{
     box-shadow: 1px 1px 1px 1px black;
-    color: black;
-     background: white;
+    color: white;
+     background:#0e1f47;
     margin-right: 20px;
     font-weight: bold;
 }
 #education:hover{
     font-weight: bolder;
-    color: white;
+    color: black;
     transition:0.5s ;
-    background:#0e1f47;
+    background:white;
 }
 
 
