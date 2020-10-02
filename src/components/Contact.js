@@ -1,16 +1,9 @@
 import React from 'react'
 import { Form, Input, TextArea, Button, Select } from 'semantic-ui-react'
+import {genderOptions} from '../constants'
 import './css/contact.css'
-const genderOptions = [
-  { key: 'm', text: 'Male', value: 'male' },
-  { key: 'f', text: 'Female', value: 'female' },
-  { key: 'o', text: 'Other', value: 'other' },
-]
 
 const Contact = () => (
-        
-
-
   <Form className="container">
       <h1>Contact me</h1>
       {/* <img src="./images/anasbinsohail.jpg" width="20%" style={{borderRadius:'300px'}} /> */}

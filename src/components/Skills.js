@@ -2,15 +2,11 @@ import React from 'react'
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { Progress } from 'semantic-ui-react';
 import { Popup } from 'semantic-ui-react'
+import {Skill} from '../constants'
 import './css/skills.css'
+
 function Skills() {
 
-    const Skill = {
-        java: 'Java',
-        js: 'JavaScript',
-        python: 'Python',
-        C: "C"
-    }
     return (
         <div className="container skills" >
             <AnimatedOnScroll animationIn="slideInLeft">
