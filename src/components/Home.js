@@ -76,12 +76,12 @@ function Home() {
                     <div className="container">
                         <h3 style={{ textAlign: "center" }} id="connect">Connect With me Now ! </h3>
                         <ul id='social-icons'>
-                            <li><a href="https://github.com/thebinsohail" target="_blank" ><Icon name='github' color='black' size='huge' /></a></li>
-                            <li><a href="https://www.facebook.com/anasbinsohail/" target="_blank" ><Icon name='facebook' color='blue' size='huge' /></a></li>
-                            <li><a href="https://www.instagram.com/thebinsohail" target="_blank"><Icon name='instagram' color='red' size='huge' /></a></li>
-                            <li><a href="anassohail.as@gmail.com"><Icon name='mail' color='orange' size='huge' /></a></li>
-                            <li><a href="https://twitter.com/thebinsohail" target="_blank"><Icon name='twitter' color='blue' size='huge' /></a></li>
-                            <li><a href="https://www.linkedin.com/in/anasbinsohail/" target="_blank"><Icon name='linkedin' color='blue' size='huge' /></a></li>
+                            <li><a rel="noopener noreferrer" href="https://github.com/thebinsohail" target="_blank" ><Icon name='github' color='black' size='huge' /></a></li>
+                            <li><a rel="noopener noreferrer" href="https://www.facebook.com/anasbinsohail/" target="_blank" ><Icon name='facebook' color='blue' size='huge' /></a></li>
+                            <li><a rel="noopener noreferrer" href="https://www.instagram.com/thebinsohail" target="_blank"><Icon name='instagram' color='red' size='huge' /></a></li>
+                            <li><a rel="noopener noreferrer" href="anassohail.as@gmail.com"><Icon name='mail' color='orange' size='huge' /></a></li>
+                            <li><a rel="noopener noreferrer" href="https://twitter.com/thebinsohail" target="_blank"><Icon name='twitter' color='blue' size='huge' /></a></li>
+                            <li><a rel="noopener noreferrer" href="https://www.linkedin.com/in/anasbinsohail/" target="_blank"><Icon name='linkedin' color='blue' size='huge' /></a></li>
                         </ul>
                     </div>
                     
