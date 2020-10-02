@@ -6,37 +6,21 @@ import './css/home.css'
 import { Row, Col } from 'react-bootstrap';
 import { DiCode } from 'react-icons/di';
 import { Icon } from 'semantic-ui-react';
-
-let profession = "Developer | Software Engineer"
+import {TEXTS,profession} from '../constants'
 
 function Home() {
-
-    const TEXTS = [
-        "Hello there!",
-        "I'm Anas Bin Sohail"
-
-    ];
+    
     const [index, setIndex] = useState(0);
-
-
-
-
 
     const fade = useSpring(
         {
             from: { opacity: 0 },
-
             to: { opacity: 1 },
-
-
-
         });
-
 
     const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
     const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
     const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
-
 
     return (
         <div className="custom-shape-divider-top-1598650042 intro" id="homepage">

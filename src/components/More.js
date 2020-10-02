@@ -32,9 +32,7 @@ function More() {
             </div>
             
         </Modal.Content>
-       
       </Modal>
-
     </div>
   )
 }
