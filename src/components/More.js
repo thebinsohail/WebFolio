@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Header, Icon, Modal } from 'semantic-ui-react'
+import { Button, Modal } from 'semantic-ui-react'
 
 
 function More() {
@@ -27,7 +27,7 @@ function More() {
         
             <h3>Join my Discord Server <b>DevBounty</b> for programming related stuff</h3>
             <div className="container text-center">
-            <iframe src="https://discordapp.com/widget?id=759173397145452575&theme=dark" width="300" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <iframe title="DevBounty" src="https://discordapp.com/widget?id=759173397145452575&theme=dark" width="300" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             
             </div>
             

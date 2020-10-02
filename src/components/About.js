@@ -2,10 +2,9 @@ import React from 'react'
 import './css/about.css'
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { Divider } from 'semantic-ui-react'
-import { useSpring, animated, useState } from 'react-spring'
+import { useSpring, animated } from 'react-spring'
 import { Row, Col, Card } from 'react-bootstrap';
 import { IoIosSchool } from 'react-icons/io';
-import { AiTwotoneCloud } from 'react-icons/ai';
 
 const info = {
     profession: ' Developer | Software Engineer',
@@ -20,9 +19,6 @@ const education = {
     college: 'Govt National College Karachi'
 
 }
-
-// const [bg, setBg] = useState(false);
-
 
 function About() {
     const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]

@@ -1,12 +1,12 @@
 import React from 'react'
-import { Card, Icon ,Divider } from 'semantic-ui-react'
+import { Card ,Divider } from 'semantic-ui-react'
 import { Row, Col } from 'react-bootstrap'
 import './css/experience.css'
 const Experience = () => (
 
     <div>
         
-        <div className="container"><Divider/><h1 style={{fontSize:'30px',marginTop: '100px',textAlign: 'center', marginTop: '100px',fontWeight: 'lighter'}}>My Experience</h1></div>
+        <div className="container"><Divider/><h1 style={{fontSize:'30px',marginTop: '100px',textAlign: 'center',fontWeight: 'lighter'}}>My Experience</h1></div>
         
        
         <div className="container-fluid text-center">

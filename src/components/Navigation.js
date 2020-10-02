@@ -6,12 +6,6 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText
 } from 'reactstrap';
 import { DiCode } from "react-icons/di";
 import {Link} from 'react-scroll'

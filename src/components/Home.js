@@ -1,11 +1,11 @@
-import React from 'react'
-import { useSpring, animated, useState } from 'react-spring'
+import React,{useState} from 'react'
+import { useSpring, animated} from 'react-spring'
 import TextTransition, { presets } from "react-text-transition";
 import './css/shaper.css'
 import './css/home.css'
 import { Row, Col } from 'react-bootstrap';
 import { DiCode } from 'react-icons/di';
-import {Icon,Popup} from 'semantic-ui-react';
+import {Icon} from 'semantic-ui-react';
 
 let profession = "Developer | Software Engineer"
 
@@ -16,7 +16,7 @@ function Home() {
         "I'm Anas Bin Sohail"
 
     ];
-    const [index, setIndex] = React.useState(0);
+    const [index, setIndex] = useState(0);
    
 
 

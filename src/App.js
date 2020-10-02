@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Loader from 'react-loader-spinner'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
@@ -8,7 +7,6 @@ import Navigation from './components/Navigation'
 import Home from './components/Home'
 import About from './components/About'
 import Skills from './components/Skills'
-import Contact from './components/Contact'
 import Experience from './components/Experience'
 import Group from './components/Group'
 import More from './components/More'
