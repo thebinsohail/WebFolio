@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useSpring, animated } from 'react-spring';
+import React from 'react';
+import { animated } from 'react-spring';
 import TextTransition, { presets } from 'react-text-transition';
 import './css/shaper.css';
 import './css/home.css';
@@ -7,20 +7,14 @@ import { Row, Col } from 'react-bootstrap';
 import { DiCode } from 'react-icons/di';
 import { Icon } from 'semantic-ui-react';
 import { TEXTS, profession } from '../constants';
+import {
+  trans, props, set, calc, fade,
+} from '../utils';
 
 function Home() {
-  const [index, setIndex] = useState(0);
+  const index = 1;
 
-  const fade = useSpring(
-    {
-      from: { opacity: 0 },
-      to: { opacity: 1 },
-    },
-  );
-
-  const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1];
-  const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
-  const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }));
+  const { xys } = props;
 
   return (
     <div className="custom-shape-divider-top-1598650042 intro" id="homepage">
@@ -43,7 +37,7 @@ function Home() {
 
       <h3 id="name">
         <TextTransition
-          text={TEXTS[index + 1 % TEXTS.length]}
+          text={TEXTS[(index + 1) % TEXTS.length]}
           springConfig={presets.wobbly}
           delay={1000}
           inline
@@ -55,7 +49,7 @@ function Home() {
         <animated.img
           onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
           onMouseLeave={() => set({ xys: [0, 0, 1] })}
-          style={{ transform: props.xys.interpolate(trans) }}
+          style={{ transform: xys.interpolate(trans) }}
           className="img-fluid"
           src="./images/intro.jpg"
         />
@@ -64,12 +58,36 @@ function Home() {
           <div className="container">
             <h3 style={{ textAlign: 'center' }} id="connect">Connect With me Now ! </h3>
             <ul id="social-icons">
-              <li><a rel="noopener noreferrer" href="https://github.com/thebinsohail" target="_blank"><Icon name="github" color="black" size="huge" /></a></li>
-              <li><a rel="noopener noreferrer" href="https://www.facebook.com/anasbinsohail/" target="_blank"><Icon name="facebook" color="blue" size="huge" /></a></li>
-              <li><a rel="noopener noreferrer" href="https://www.instagram.com/thebinsohail" target="_blank"><Icon name="instagram" color="red" size="huge" /></a></li>
-              <li><a rel="noopener noreferrer" href="anassohail.as@gmail.com"><Icon name="mail" color="orange" size="huge" /></a></li>
-              <li><a rel="noopener noreferrer" href="https://twitter.com/thebinsohail" target="_blank"><Icon name="twitter" color="blue" size="huge" /></a></li>
-              <li><a rel="noopener noreferrer" href="https://www.linkedin.com/in/anasbinsohail/" target="_blank"><Icon name="linkedin" color="blue" size="huge" /></a></li>
+              <li>
+                <a rel="noopener noreferrer" href="https://github.com/thebinsohail" target="_blank">
+                  <Icon aria-label="github" name="github" color="black" size="huge" />
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="https://www.facebook.com/anasbinsohail/" target="_blank">
+                  <Icon aria-label="facebook" name="facebook" color="blue" size="huge" />
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="https://www.instagram.com/thebinsohail" target="_blank">
+                  <Icon aria-label="instagram" name="instagram" color="red" size="huge" />
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="anassohail.as@gmail.com">
+                  <Icon aria-label="mail" name="mail" color="orange" size="huge" />
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="https://twitter.com/thebinsohail" target="_blank">
+                  <Icon aria-label="twitter" name="twitter" color="blue" size="huge" />
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="https://www.linkedin.com/in/anasbinsohail/" target="_blank">
+                  <Icon aria-label="linkedin" name="linkedin" color="blue" size="huge" />
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -84,7 +102,7 @@ function Home() {
         <div id="aboutme" />
 
         <div id="cv-btn">
-          <a href="./CV/cv.pdf" download="CV"><button className="btn btn-danger">Download CV</button></a>
+          <a href="./CV/cv.pdf" download="CV"><button type="button" className="btn btn-danger">Download CV</button></a>
         </div>
       </div>
 

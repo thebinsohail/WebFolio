@@ -10,7 +10,7 @@ import {
 import { DiCode } from 'react-icons/di';
 import { Link } from 'react-scroll';
 
-const Navigation = (props) => {
+const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -38,7 +38,7 @@ const Navigation = (props) => {
                 duration={500}
                 activeClass="active"
               >
-                <button className="btn" id="home-btn">
+                <button type="button" className="btn" id="home-btn">
                   Home
                 </button>
               </Link>
@@ -53,7 +53,7 @@ const Navigation = (props) => {
                 offset={50}
                 duration={500}
               >
-                <button className="btn" id="about-btn">
+                <button type="button" className="btn" id="about-btn">
                   About
                 </button>
               </Link>
@@ -68,7 +68,7 @@ const Navigation = (props) => {
                 offset={50}
                 duration={500}
               >
-                <button className="btn" id="skills-btn">
+                <button type="button" className="btn" id="skills-btn">
                   Skills
                 </button>
               </Link>
@@ -83,7 +83,7 @@ const Navigation = (props) => {
                 offset={50}
                 duration={500}
               >
-                <button className="btn" id="exp-btn">
+                <button type="button" className="btn" id="exp-btn">
                   Experience
                 </button>
               </Link>
