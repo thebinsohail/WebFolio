@@ -2,15 +2,19 @@ import React from 'react';
 import './css/about.css';
 import { AnimatedOnScroll } from 'react-animated-css-onscroll';
 import { Divider } from 'semantic-ui-react';
-import { animated } from 'react-spring';
+import { useSpring, animated } from 'react-spring';
 import { Row, Col, Card } from 'react-bootstrap';
 import { IoIosSchool } from 'react-icons/io';
 import { education, info } from '../constants';
 import {
-  calc, props, set, trans,
+  calc, trans,
 } from '../utils';
 
 function About() {
+  const [props, set] = useSpring(() => (
+    {
+      xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 },
+    }));
   const { xys } = props;
   return (
     <div className="about" style={{ background: 'transparent' }}>

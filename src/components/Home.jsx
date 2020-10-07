@@ -1,5 +1,5 @@
 import React from 'react';
-import { animated } from 'react-spring';
+import { animated, useSpring } from 'react-spring';
 import TextTransition, { presets } from 'react-text-transition';
 import './css/shaper.css';
 import './css/home.css';
@@ -8,12 +8,21 @@ import { DiCode } from 'react-icons/di';
 import { Icon } from 'semantic-ui-react';
 import { TEXTS, profession } from '../constants';
 import {
-  trans, props, set, calc, fade,
+  trans, calc,
 } from '../utils';
 
 function Home() {
   const index = 1;
-
+  const fade = useSpring(
+    {
+      from: { opacity: 0 },
+      to: { opacity: 1 },
+    },
+  );
+  const [props, set] = useSpring(() => (
+    {
+      xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 },
+    }));
   const { xys } = props;
 
   return (
