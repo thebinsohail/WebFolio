@@ -23,6 +23,18 @@ const Experience = () => (
     <div className="container-fluid text-center">
       <Row>
 
+      <Col lg={6} sm={6}>
+      <Card
+            id="card5"
+            style={{ marginTop: '50px', boxShadow: '1px 1px 1px  gray' }}
+            image="./images/logo.png"
+            header="Founder | CEO at Cauldron Technologies "
+            description={descriptions.cauldrontech}
+         />
+
+
+      </Col>
+
         <Col lg={6} sm={6}>
           <Card
             id="card4"
@@ -42,7 +54,7 @@ const Experience = () => (
             style={{ marginTop: '50px', boxShadow: '1px 1px 1px  gray' }}
             image="./images/ieeex.png"
             header="Brand Ambassador IEEEXTREME Programming Competition 2020"
-            // description="IEEEXtreme is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve a set of programming problems."
+           
             description={descriptions.xtreme}
           />
         </Col>
@@ -52,8 +64,7 @@ const Experience = () => (
             style={{ marginTop: '50px', boxShadow: '1px 1px 1px  gray' }}
             image="./images/sac.png"
             header="Technical Chapter/vTools Coordinator "
-            // description="Being a part of IEEE SAC Karachi Section . as a Technical Chapter Coordinator it is my responsibility to keep in track of every technical chapter activity and inactivity (if) Tech. Chap events events on VTOOLS - Events so as coordination with IEEE Student Branches as well as assisting them in using the tools being provided by IEEE . "
-          description={descriptions.sac2020}
+            description={descriptions.sac2020}
           />
         </Col>
 
@@ -63,10 +74,6 @@ const Experience = () => (
             style={{ marginTop: '50px', boxShadow: '1px 1px 1px  gray' }}
             image="./images/sac.png"
             header="vTools Coordinator 2019 "
-            // description="In 2019, I was a part of IEEE SAC Karachi Section . Being a VTOOLS Coordinator it was my responsibility to report
-            //          section event on VTOOLS - Events so as coordination with IEEE Student Branches as well as assisting them in using the tools being provided by IEEE
-            //          . Also guiding them about all the volunteer tools that fall under IEEE MGA VTOOLS"
-            
             description={descriptions.sac2019}
          />
         </Col>

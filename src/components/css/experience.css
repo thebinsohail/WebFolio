@@ -18,6 +18,10 @@ background:whitesmoke;
     
 }
 
+#card5:hover{
+    background:whitesmoke;
+    
+}
 
 #card1{
    margin-left:50px;
@@ -31,6 +35,11 @@ background:whitesmoke;
     }    
     
     #card4{
+        margin-left:50px;
+        
+    }
+
+    #card5{
         margin-left:50px;
         
     }
@@ -49,6 +58,10 @@ background:whitesmoke;
              }    
              
              #card4{
+                margin-left:10px;
+                 
+             }
+             #card5{
                 margin-left:10px;
                  
              }
@@ -71,6 +84,10 @@ background:whitesmoke;
             margin-left:50px;
             
         }
+        #card5{
+            margin-left:50px;
+            
+        }
 }
 
 @media (max-width:812px){
@@ -88,6 +105,10 @@ background:whitesmoke;
     }    
     
     #card4{
+        margin-left:25px; 
+
+    }
+    #card5{
         margin-left:25px; 
 
     }
