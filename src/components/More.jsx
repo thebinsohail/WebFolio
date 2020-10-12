@@ -4,7 +4,7 @@ import { Button, Modal } from 'semantic-ui-react';
 function More() {
   const [open, setOpen] = React.useState(false);
   return (
-    <div className="container" style={{ marginLeft: '50px' }}>
+    <div className="container" style={{ marginLeft: '50px',marginTop: '50px'}}>
 
       <Modal
         center
@@ -13,7 +13,7 @@ function More() {
         onOpen={() => setOpen(true)}
         open={open}
         size="small"
-        trigger={<Button>More about this WebFolio</Button>}
+        trigger={<Button>See more</Button>}
       >
         {/* <Header>More Content will be uploaded soon!</Header> */}
         <Modal.Content>

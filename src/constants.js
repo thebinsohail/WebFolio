@@ -38,6 +38,6 @@ export const descriptions={
   afiniti:'Black-Box Tester',
   xtreme:'IEEEXtreme is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve a set of programming problems.',
   sac2020: 'Being a part of IEEE SAC Karachi Section . as a Technical Chapter Coordinator it is my responsibility to keep in track of every technical chapter activity and inactivity (if) Tech. Chap events events on VTOOLS - Events so as coordination with IEEE Student Branches as well as assisting them in using the tools being provided by IEEE .',
-  sac2019: 'In 2019, I was a part of IEEE SAC Karachi Section . Being a VTOOLS Coordinator it was my responsibility to report section event on VTOOLS - Events so as coordination with IEEE Student Branches as well as assisting them in using the tools being provided by IEEE. Also guiding them about all the volunteer tools that fall under IEEE MGA VTOOLS'
-  
+  sac2019: 'In 2019, I was a part of IEEE SAC Karachi Section . Being a VTOOLS Coordinator it was my responsibility to report section event on VTOOLS - Events so as coordination with IEEE Student Branches as well as assisting them in using the tools being provided by IEEE. Also guiding them about all the volunteer tools that fall under IEEE MGA VTOOLS',
+  cauldrontech:'Cauldron Technologies ,from the beginning was there, It is a community of talented developers and an organization of a good standard providing computing services from locally to industrially in a great manner and responsibility'  
 }
