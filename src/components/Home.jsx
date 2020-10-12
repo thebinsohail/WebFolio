@@ -36,7 +36,7 @@ function Home() {
 
       <span role="img" id="greetings" aria-label="Greeting">
       
-      //&#128075;
+      {/* &#128075; */}
       
         <TextTransition
           text={TEXTS[index % TEXTS.length]}
