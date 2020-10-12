@@ -1,9 +1,8 @@
 // Place for all the constants like education, name etc
 
 export const TEXTS = [
- 
+  'Hello there!',
   "I'm Anas Bin Sohail",
-  'Hello there!'
 ];
 
 export const profession = 'Developer | Software Engineer';
