@@ -35,14 +35,19 @@ function Home() {
       </svg>
 
       <span role="img" id="greetings" aria-label="Greeting">
+      
+      &#128075;
+      
         <TextTransition
           text={TEXTS[index % TEXTS.length]}
           springConfig={presets.gentle}
           delay={300}
           inline
         />
-        &#128075;
+       
       </span>
+
+      
 
       <h3 id="name">
         <TextTransition
