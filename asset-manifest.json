@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/WebFolio/static/css/main.95fe9a9a.chunk.css",
-    "main.js": "/WebFolio/static/js/main.e967e827.chunk.js",
-    "main.js.map": "/WebFolio/static/js/main.e967e827.chunk.js.map",
+    "main.js": "/WebFolio/static/js/main.ca1a375c.chunk.js",
+    "main.js.map": "/WebFolio/static/js/main.ca1a375c.chunk.js.map",
     "runtime-main.js": "/WebFolio/static/js/runtime-main.e98b7434.js",
     "runtime-main.js.map": "/WebFolio/static/js/runtime-main.e98b7434.js.map",
     "static/css/2.6d8c91ab.chunk.css": "/WebFolio/static/css/2.6d8c91ab.chunk.css",
     "static/js/2.d41c4a16.chunk.js": "/WebFolio/static/js/2.d41c4a16.chunk.js",
     "static/js/2.d41c4a16.chunk.js.map": "/WebFolio/static/js/2.d41c4a16.chunk.js.map",
     "index.html": "/WebFolio/index.html",
-    "precache-manifest.c62bb312ebfcbbb1b3ed9d1c44578207.js": "/WebFolio/precache-manifest.c62bb312ebfcbbb1b3ed9d1c44578207.js",
+    "precache-manifest.73050e54116dbc4d98bdaf89aa6d8c77.js": "/WebFolio/precache-manifest.73050e54116dbc4d98bdaf89aa6d8c77.js",
     "service-worker.js": "/WebFolio/service-worker.js",
     "static/css/2.6d8c91ab.chunk.css.map": "/WebFolio/static/css/2.6d8c91ab.chunk.css.map",
     "static/css/main.95fe9a9a.chunk.css.map": "/WebFolio/static/css/main.95fe9a9a.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.6d8c91ab.chunk.css",
     "static/js/2.d41c4a16.chunk.js",
     "static/css/main.95fe9a9a.chunk.css",
-    "static/js/main.e967e827.chunk.js"
+    "static/js/main.ca1a375c.chunk.js"
   ]
 }
