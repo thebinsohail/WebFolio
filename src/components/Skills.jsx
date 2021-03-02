@@ -23,7 +23,7 @@ function Skills() {
               className="text-center"
               style={{ display: 'inline' }}
             />
-)}
+          )}
         />
 
         <h3 style={{ textAlign: 'center' }}>{Skill.js}</h3>
@@ -31,45 +31,46 @@ function Skills() {
           content="Excellent"
           trigger={(
             <Progress
-              percent={85}
+              percent={100}
               size="medium"
               color="red"
               active
               className="text-center"
               style={{ display: 'inline' }}
             />
-)}
-        />
-
-        <h3 style={{ textAlign: 'center' }}>{Skill.C}</h3>
-        <Popup
-          content="Perfect"
-          trigger={(
-            <Progress
-              percent={80}
-              size="medium"
-              color="red"
-              active
-              className="text-center"
-              style={{ display: 'inline' }}
-            />
-)}
+          )}
         />
 
         <h3 style={{ textAlign: 'center' }}>{Skill.python}</h3>
         <Popup
-          content="Good"
+          content="Perfect"
           trigger={(
             <Progress
-              percent={75}
+              percent={100}
               size="medium"
               color="red"
               active
               className="text-center"
               style={{ display: 'inline' }}
             />
-)}
+          )}
         />
+
+        <h3 style={{ textAlign: 'center' }}>{Skill.C}</h3>
+        <Popup
+          content="Good"
+          trigger={(
+            <Progress
+              percent={100}
+              size="medium"
+              color="red"
+              active
+              className="text-center"
+              style={{ display: 'inline' }}
+            />
+          )}
+        />
+
       </AnimatedOnScroll>
       <div id="experience" />
     </div>

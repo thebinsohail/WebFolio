@@ -24,8 +24,8 @@ function More() {
           */}
 
           <h3>
-            Join my Discord  Server
-            <b>DevBounty</b>
+            Join my Discord Server
+            Dev Bounty
             {'  '}
             for programming related stuff
           </h3>

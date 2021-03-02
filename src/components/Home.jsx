@@ -93,7 +93,7 @@ function Home() {
                 </a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="https://twitter.com/thebinsohail" target="_blank">
+                <a rel="noopener noreferrer" href="https://twitter.com/anasbinsohail" target="_blank">
                   <Icon aria-label="twitter" name="twitter" color="blue" size="huge" />
                 </a>
               </li>
