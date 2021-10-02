@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/anasbinsohail/static/css/main.925a2163.chunk.css",
-    "main.js": "/anasbinsohail/static/js/main.f3d75db1.chunk.js",
-    "main.js.map": "/anasbinsohail/static/js/main.f3d75db1.chunk.js.map",
-    "runtime-main.js": "/anasbinsohail/static/js/runtime-main.d31d1a30.js",
-    "runtime-main.js.map": "/anasbinsohail/static/js/runtime-main.d31d1a30.js.map",
-    "static/css/2.f33e27e8.chunk.css": "/anasbinsohail/static/css/2.f33e27e8.chunk.css",
-    "static/js/2.f59feb21.chunk.js": "/anasbinsohail/static/js/2.f59feb21.chunk.js",
-    "static/js/2.f59feb21.chunk.js.map": "/anasbinsohail/static/js/2.f59feb21.chunk.js.map",
-    "index.html": "/anasbinsohail/index.html",
-    "precache-manifest.89d9c83544f9c533908ea8f72d9eb3c1.js": "/anasbinsohail/precache-manifest.89d9c83544f9c533908ea8f72d9eb3c1.js",
-    "service-worker.js": "/anasbinsohail/service-worker.js",
-    "static/css/2.f33e27e8.chunk.css.map": "/anasbinsohail/static/css/2.f33e27e8.chunk.css.map",
-    "static/css/main.925a2163.chunk.css.map": "/anasbinsohail/static/css/main.925a2163.chunk.css.map",
-    "static/js/2.f59feb21.chunk.js.LICENSE.txt": "/anasbinsohail/static/js/2.f59feb21.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/anasbinsohail/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/WebFolio/static/css/main.925a2163.chunk.css",
+    "main.js": "/WebFolio/static/js/main.c2404210.chunk.js",
+    "main.js.map": "/WebFolio/static/js/main.c2404210.chunk.js.map",
+    "runtime-main.js": "/WebFolio/static/js/runtime-main.e98b7434.js",
+    "runtime-main.js.map": "/WebFolio/static/js/runtime-main.e98b7434.js.map",
+    "static/css/2.4f3754f3.chunk.css": "/WebFolio/static/css/2.4f3754f3.chunk.css",
+    "static/js/2.2d1a2819.chunk.js": "/WebFolio/static/js/2.2d1a2819.chunk.js",
+    "static/js/2.2d1a2819.chunk.js.map": "/WebFolio/static/js/2.2d1a2819.chunk.js.map",
+    "index.html": "/WebFolio/index.html",
+    "precache-manifest.f5c854e32f6aac6223d9dae739068f12.js": "/WebFolio/precache-manifest.f5c854e32f6aac6223d9dae739068f12.js",
+    "service-worker.js": "/WebFolio/service-worker.js",
+    "static/css/2.4f3754f3.chunk.css.map": "/WebFolio/static/css/2.4f3754f3.chunk.css.map",
+    "static/css/main.925a2163.chunk.css.map": "/WebFolio/static/css/main.925a2163.chunk.css.map",
+    "static/js/2.2d1a2819.chunk.js.LICENSE.txt": "/WebFolio/static/js/2.2d1a2819.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/WebFolio/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.d31d1a30.js",
-    "static/css/2.f33e27e8.chunk.css",
-    "static/js/2.f59feb21.chunk.js",
+    "static/js/runtime-main.e98b7434.js",
+    "static/css/2.4f3754f3.chunk.css",
+    "static/js/2.2d1a2819.chunk.js",
     "static/css/main.925a2163.chunk.css",
-    "static/js/main.f3d75db1.chunk.js"
+    "static/js/main.c2404210.chunk.js"
   ]
 }
