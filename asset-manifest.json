@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/WebFolio/static/css/main.925a2163.chunk.css",
-    "main.js": "/WebFolio/static/js/main.c2404210.chunk.js",
-    "main.js.map": "/WebFolio/static/js/main.c2404210.chunk.js.map",
-    "runtime-main.js": "/WebFolio/static/js/runtime-main.e98b7434.js",
-    "runtime-main.js.map": "/WebFolio/static/js/runtime-main.e98b7434.js.map",
-    "static/css/2.4f3754f3.chunk.css": "/WebFolio/static/css/2.4f3754f3.chunk.css",
-    "static/js/2.2d1a2819.chunk.js": "/WebFolio/static/js/2.2d1a2819.chunk.js",
-    "static/js/2.2d1a2819.chunk.js.map": "/WebFolio/static/js/2.2d1a2819.chunk.js.map",
+    "main.css": "/WebFolio/static/css/main.95fe9a9a.chunk.css",
+    "main.js": "/WebFolio/static/js/main.d88fe894.chunk.js",
+    "main.js.map": "/WebFolio/static/js/main.d88fe894.chunk.js.map",
+    "runtime-main.js": "/WebFolio/static/js/runtime-main.fbb0c182.js",
+    "runtime-main.js.map": "/WebFolio/static/js/runtime-main.fbb0c182.js.map",
+    "static/css/2.37b835b5.chunk.css": "/WebFolio/static/css/2.37b835b5.chunk.css",
+    "static/js/2.e73f91d2.chunk.js": "/WebFolio/static/js/2.e73f91d2.chunk.js",
+    "static/js/2.e73f91d2.chunk.js.map": "/WebFolio/static/js/2.e73f91d2.chunk.js.map",
     "index.html": "/WebFolio/index.html",
-    "precache-manifest.f5c854e32f6aac6223d9dae739068f12.js": "/WebFolio/precache-manifest.f5c854e32f6aac6223d9dae739068f12.js",
+    "precache-manifest.bd89e7df6433f9a051715d55f6c963d0.js": "/WebFolio/precache-manifest.bd89e7df6433f9a051715d55f6c963d0.js",
     "service-worker.js": "/WebFolio/service-worker.js",
-    "static/css/2.4f3754f3.chunk.css.map": "/WebFolio/static/css/2.4f3754f3.chunk.css.map",
-    "static/css/main.925a2163.chunk.css.map": "/WebFolio/static/css/main.925a2163.chunk.css.map",
-    "static/js/2.2d1a2819.chunk.js.LICENSE.txt": "/WebFolio/static/js/2.2d1a2819.chunk.js.LICENSE.txt",
+    "static/css/2.37b835b5.chunk.css.map": "/WebFolio/static/css/2.37b835b5.chunk.css.map",
+    "static/css/main.95fe9a9a.chunk.css.map": "/WebFolio/static/css/main.95fe9a9a.chunk.css.map",
+    "static/js/2.e73f91d2.chunk.js.LICENSE.txt": "/WebFolio/static/js/2.e73f91d2.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/WebFolio/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.e98b7434.js",
-    "static/css/2.4f3754f3.chunk.css",
-    "static/js/2.2d1a2819.chunk.js",
-    "static/css/main.925a2163.chunk.css",
-    "static/js/main.c2404210.chunk.js"
+    "static/js/runtime-main.fbb0c182.js",
+    "static/css/2.37b835b5.chunk.css",
+    "static/js/2.e73f91d2.chunk.js",
+    "static/css/main.95fe9a9a.chunk.css",
+    "static/js/main.d88fe894.chunk.js"
   ]
 }

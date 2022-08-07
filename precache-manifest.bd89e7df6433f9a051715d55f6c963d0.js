@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e48473ae418084e07d072da5405b2d38",
+    "revision": "c89db73298a2f18f2ea7d5112179c9b5",
     "url": "/WebFolio/index.html"
   },
   {
-    "revision": "e9ae3fa7303dea5e8114",
-    "url": "/WebFolio/static/css/2.4f3754f3.chunk.css"
+    "revision": "723d1b15417a88151d88",
+    "url": "/WebFolio/static/css/2.37b835b5.chunk.css"
   },
   {
-    "revision": "f296d72797495ea7fafe",
-    "url": "/WebFolio/static/css/main.925a2163.chunk.css"
+    "revision": "c4c7cc3a1288ba08bf0a",
+    "url": "/WebFolio/static/css/main.95fe9a9a.chunk.css"
   },
   {
-    "revision": "e9ae3fa7303dea5e8114",
-    "url": "/WebFolio/static/js/2.2d1a2819.chunk.js"
+    "revision": "723d1b15417a88151d88",
+    "url": "/WebFolio/static/js/2.e73f91d2.chunk.js"
   },
   {
     "revision": "2089965cc3e0fbb1dda2d650d8277df4",
-    "url": "/WebFolio/static/js/2.2d1a2819.chunk.js.LICENSE.txt"
+    "url": "/WebFolio/static/js/2.e73f91d2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f296d72797495ea7fafe",
-    "url": "/WebFolio/static/js/main.c2404210.chunk.js"
+    "revision": "c4c7cc3a1288ba08bf0a",
+    "url": "/WebFolio/static/js/main.d88fe894.chunk.js"
   },
   {
-    "revision": "c21b61f69cff28c63aa0",
-    "url": "/WebFolio/static/js/runtime-main.e98b7434.js"
+    "revision": "4bb38a011379c71b74ff",
+    "url": "/WebFolio/static/js/runtime-main.fbb0c182.js"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
